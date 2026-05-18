@@ -58,7 +58,11 @@ ros2 run demo_nodes_py listener
 
 ## Installation
 
+See the full documentation sources below. All guides include setup, verification, and troubleshooting.
+
 ### Ubuntu - Desktop (Recommended for Beginners)
+
+**Reference:** [[Ubuntu (deb packages) — ROS 2 Documentation Kilted  documentation.md|Ubuntu deb packages (Desktop recommended)]]
 
 **Setup locale:**
 ```bash
@@ -96,6 +100,8 @@ source /opt/ros/kilted/setup.bash
 
 ### Ubuntu - Binary (Pre-built)
 
+**Reference:** [[Ubuntu (binary) — ROS 2 Documentation Kilted  documentation.md|Ubuntu binary packages]]
+
 Download from [ROS 2 releases page](https://github.com/ros2/ros2/releases) and extract:
 ```bash
 mkdir -p ~/ros2_kilted
@@ -107,6 +113,8 @@ tar xf ~/Downloads/ros2-package-linux-x86_64.tar.bz2
 ---
 
 ### Ubuntu - Source (Development)
+
+**Reference:** [[Ubuntu (source) — ROS 2 Documentation Kilted  documentation.md|Ubuntu source development setup]]
 
 For advanced users who want to build from source:
 
@@ -186,15 +194,17 @@ Quick reference guide organized by task. All commands assume you've sourced the 
 | `ros2 bag play <bag_file>` | Playback recorded bag | `ros2 bag play rosbag2_2024_05_18` |
 | `ros2 doctor` | Diagnose ROS 2 setup issues | `ros2 doctor` |
 
-### Testing & Maintenance
+### Testing & Pre-release
 
 | Command | Purpose | Example |
 |---------|---------|---------|
+| `sudo apt install -y ros2-testing-apt-source` | Switch to testing repository (Debian) | Test bleeding-edge packages before release |
+| `sudo apt update; sudo apt dist-upgrade` | Upgrade to testing repository versions | `sudo apt dist-upgrade` |
+| `sudo apt install -y ros2-apt-source` | Switch back to stable repository | Revert to released packages |
+| `docker pull osrf/ros2:nightly` | Pull nightly Docker image | `docker run -it osrf/ros2:nightly` |
 | `colcon test` | Run all tests in workspace | `colcon test --packages-select my_pkg` |
-| `colcon test --packages-select <pkg>` | Test specific package | `colcon test --packages-select my_pkg` |
-| `vcs import src < ros2.repos` | Import repositories from file | Update source installation: `vcs import src < ros2.repos` |
-| `vcs pull src` | Update all repositories | `vcs pull src` (keep source code up-to-date) |
-| `colcon build --symlink-install --mixin release` | Build in release mode | Optimized build: `colcon build --symlink-install --mixin release` |
+
+See [[Testing with pre-release binaries — ROS 2 Documentation Kilted  documentation.md|Testing with pre-release binaries]] for full options (deb testing, RHEL, Docker, binary archives).
 
 ### Turtlesim (Learning Tool)
 
@@ -204,11 +214,23 @@ Quick reference guide organized by task. All commands assume you've sourced the 
 | `ros2 run turtlesim turtle_teleop_key` | Control turtle with keyboard | `ros2 run turtlesim turtle_teleop_key` |
 | `ros2 run turtlesim draw_square` | Run example drawing node | `ros2 run turtlesim draw_square` |
 
+### Maintenance & Updates
+
+| Command | Purpose | Example |
+|---------|---------|---------|
+| `vcs custom --args remote update` | Update repository remotes | `vcs custom --args remote update` |
+| `vcs pull src` | Pull latest code from all repos | `vcs pull src` |
+| `rm -rf install build log` | Clean build artifacts before rebuild | `rm -rf install build log; colcon build` |
+| `colcon build --symlink-install` | Fast rebuild during development | `colcon build --symlink-install` |
+| `rosdep update` | Update rosdep package database | `rosdep update` |
+
+See [[Maintain source checkout — ROS 2 Documentation Kilted  documentation.md|Maintain source checkout]] for detailed source installation updates.
+
 ---
 
 ## ROS Learning Path
 
-A structured progression from beginner concepts to practical development. Based on the official [[First steps with ROS - learning path]].
+A structured progression from beginner concepts to practical development. Based on the official [[First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md|First steps with ROS learning path]] and [[Tutorials — ROS 2 Documentation Kilted  documentation.md|ROS 2 Tutorials]].
 
 ### Phase 1: Core Concepts (Foundations)
 Start with understanding how ROS 2 works:
@@ -275,9 +297,9 @@ Explore intermediate and advanced concepts:
 
 ### Structured Learning
 1. Complete the **First Steps** learning path (see [[#ROS Learning Path]])
-2. Work through **Beginner: CLI Tools** tutorials
-3. Progress to **Beginner: Client Libraries** (choose C++ or Python)
-4. Move to **Intermediate** tutorials as you grow
+2. Work through **[[Tutorials — ROS 2 Documentation Kilted  documentation.md|Beginner: CLI Tools]]** tutorials
+3. Progress to **[[Tutorials — ROS 2 Documentation Kilted  documentation.md|Beginner: Client Libraries]]** (choose C++ or Python)
+4. Move to **[[Tutorials — ROS 2 Documentation Kilted  documentation.md|Intermediate]]** tutorials as you grow
 
 ### Getting Help
 - **ROS Discourse**: https://discourse.ros.org/ (official community forum)
