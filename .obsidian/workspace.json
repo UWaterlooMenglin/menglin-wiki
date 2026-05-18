@@ -13,32 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/2. Challenge - Bootcamps.md",
+                "file": "WARG/WARG Bootcamp Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Challenge - Bootcamps"
+              "title": "WARG Bootcamp Overview"
             }
           }
         ]
       },
       {
-        "id": "8f94cef02ded4aa8",
+        "id": "28bf0ef90a80a44b",
         "type": "tabs",
         "children": [
           {
-            "id": "a264dda25bc11e24",
+            "id": "c90f99f3c140617f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/3. Setting up the Dev Environment and Git - Bootcamps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Setting up the Dev Environment and Git - Bootcamps"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -213,10 +209,11 @@
   },
   "active": "e7d7f2b0b3816e4e",
   "lastOpenFiles": [
-    "ROS2",
-    "raw/Code Generation and Coding for the MCU - Bootcamps.md",
+    "README.md",
     "raw/2. Challenge - Bootcamps.md",
     "raw/3. Setting up the Dev Environment and Git - Bootcamps.md",
+    "ROS2",
+    "raw/Code Generation and Coding for the MCU - Bootcamps.md",
     "raw/attachments/cdn.webp",
     "raw/attachments",
     "raw/1. Embedded Flight Software Bootcamp - Bootcamps.md",
@@ -242,7 +239,6 @@
     "Clippings/Untitled 1.base",
     "Clippings/Untitled.base",
     "ECE 108/ece108-textbook-s2026.md",
-    "Clippings",
     "ECE 108/Assignment/A1.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
