@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WARG/WARG Bootcamp Overview.md",
+                "file": "raw/ROS2/First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WARG Bootcamp Overview"
+              "title": "First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation"
             }
           }
         ]
@@ -207,21 +207,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "e7d7f2b0b3816e4e",
+  "active": "bddf537b8d7e2f50",
   "lastOpenFiles": [
+    "ROS2/ROS2-wiki.md",
+    "ROS2/main.py",
+    "raw/ROS2/Tutorials — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/Testing with pre-release binaries — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/Maintain source checkout — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/Ubuntu (binary) — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/Ubuntu (source) — ROS 2 Documentation Kilted  documentation.md",
+    "raw/ROS2/Ubuntu (deb packages) — ROS 2 Documentation Kilted  documentation.md",
+    "WARG/WARG Bootcamp Overview.md",
+    "raw/ROS2",
+    "Untitled",
+    "raw/WARG/2. Challenge - Bootcamps.md",
+    "raw/WARG/1. Embedded Flight Software Bootcamp - Bootcamps.md",
+    "raw/attachments/cdn.webp",
+    "raw/WARG",
     "README.md",
-    "raw/2. Challenge - Bootcamps.md",
-    "raw/3. Setting up the Dev Environment and Git - Bootcamps.md",
+    "raw/WARG/3. Setting up the Dev Environment and Git - Bootcamps.md",
     "ROS2",
     "raw/Code Generation and Coding for the MCU - Bootcamps.md",
-    "raw/attachments/cdn.webp",
     "raw/attachments",
-    "raw/1. Embedded Flight Software Bootcamp - Bootcamps.md",
-    "raw/7. Learning Resources - Bootcamps.md",
-    "raw/6. Code Generation and Coding for the MCU - Bootcamps.md",
-    "raw/5. Peripherals, Schematics, and Configuring Pins - Bootcamps.md",
-    "raw/4. Opening STM32 Cube IDE - Bootcamps.md",
-    "WARG/WARG Bootcamp Overview.md",
+    "raw/WARG/7. Learning Resources - Bootcamps.md",
+    "raw/WARG/6. Code Generation and Coding for the MCU - Bootcamps.md",
+    "raw/WARG/5. Peripherals, Schematics, and Configuring Pins - Bootcamps.md",
+    "raw/WARG/4. Opening STM32 Cube IDE - Bootcamps.md",
     "Embodied AI",
     "ROS",
     "WARG",
@@ -229,22 +241,10 @@
     "raw/Karpathy's LLM Wiki - Full Beginner Setup Guide.md",
     "raw/Karpathy's LLM Wiki - Full Beginner Setup Guide 1.md",
     "wiki",
-    "templates",
-    "raw",
     "Teacher's Tech.md",
     "Untitled.md",
     "Clippings/Karpathy's LLM Wiki - Full Beginner Setup Guide 1.md",
     "Clippings/Karpathy's LLM Wiki - Full Beginner Setup Guide 2.md",
-    "Clippings/Code.md",
-    "Clippings/Untitled 1.base",
-    "Clippings/Untitled.base",
-    "ECE 108/ece108-textbook-s2026.md",
-    "ECE 108/Assignment/A1.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md"
+    "Clippings/Code.md"
   ]
 }
