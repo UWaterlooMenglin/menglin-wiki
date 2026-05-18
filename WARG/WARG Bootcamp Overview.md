@@ -17,7 +17,7 @@ The main challenge involves building a motor tester by:
 *   Converting this analog input into a PWM signal.
 *   Controlling a motor's speed/position with the generated PWM signal.
 
-*Related Files:* [[Challenge - Bootcamps]]
+*Related Files:* [[2. Challenge - Bootcamps]]
 
 ## 3. Core Technologies and Concepts
 
@@ -42,42 +42,42 @@ The main challenge involves building a motor tester by:
 The bootcamp follows a structured process:
 
 1.  **Initial Onboarding:** Complete pre-bootcamp instructions, schedule EFS lead meeting, send onboarding email.
-    *   *Related Files:* [[Embedded Flight Software Bootcamp - Bootcamps]]
+    *   *Related Files:* [[1. Embedded Flight Software Bootcamp - Bootcamps]]
 2.  **Development Environment & Git Setup:**
     *   Fork the [UWARG/embedded-bootcamp](https://github.com/UWARG/embedded-bootcamp) repository.
     *   Install and sign into [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html).
     *   Understand Git fundamentals (fork, PRs) using [Our Git Tutorial](https://uwarg-docs.atlassian.net/l/c/qbC8L1kc).
-    *   *Related Files:* [[Setting up the Dev Environment and Git - Bootcamps]]
+    *   *Related Files:* [[3. Setting up the Dev Environment and Git - Bootcamps]]
 3.  **Project Import & MCU Configuration:**
     *   Clone your forked repository.
     *   Import the project into STM32CubeIDE.
     *   Open and configure the `nucleof072rb.ioc` file using the Device Configuration Tool.
-    *   *Related Files:* [[Opening STM32 Cube IDE - Bootcamps]]
+    *   *Related Files:* [[4. Opening STM32 Cube IDE - Bootcamps]]
 4.  **Pin Configuration (based on Schematic):**
     *   Analyze the provided schematic (`fwTrainingRev3.pdf`) to identify pin connections between MCU, ADC, and motor.
     *   Configure MCU pins (e.g., PB8 as SPI Chip Select, PB3 as SPI Clock, PA6 as SPI MISO, PA7 as SPI MOSI, PA8 as PWM Output) in the `.ioc` file.
-    *   *Related Files:* [[Peripherals, Schematics, and Configuring Pins - Bootcamps]]
+    *   *Related Files:* [[5. Peripherals, Schematics, and Configuring Pins - Bootcamps]]
 5.  **Peripheral Configuration (SPI & TIM):**
     *   **SPI:** Configure SPI1 (e.g., Data Size, First Bit, Clock Polarity/Phase, Prescaler) based on the ADC datasheet.
     *   **Timers (PWM):** Configure TIM1 for PWM generation (e.g., Internal Clock, Prescaler, Period) to achieve the required 50Hz and 5-10% duty cycle.
-    *   *Related Files:* [[Code Generation and Coding for the MCU - Bootcamps]]
+    *   *Related Files:* [[6. Code Generation and Coding for the MCU - Bootcamps]]
 6.  **Coding the MCU Behavior:**
     *   Write C code within `USER CODE BEGIN/END` blocks in `main.c`.
     *   Implement **ADC Communication:** Use HAL functions for full-duplex SPI communication with the ADC, controlling the CS line, and reading relevant bits from the ADC.
     *   Implement **PWM Signal Conversion:** Convert the ADC digital value to timer counts and set the compare register for PWM output, ensuring the correct duty cycle range.
-    *   *Related Files:* [[Code Generation and Coding for the MCU - Bootcamps]]
+    *   *Related Files:* [[6. Code Generation and Coding for the MCU - Bootcamps]]
 7.  **Debugging & Verification:**
     *   Build the project in STM32CubeIDE to catch compiler errors.
     *   Physical testing on the circuit board (with team lead).
-    *   *Related Files:* [[Code Generation and Coding for the MCU - Bootcamps]]
+    *   *Related Files:* [[6. Code Generation and Coding for the MCU - Bootcamps]]
 8.  **Submission & Review:**
     *   Create a Pull Request on GitHub (e.g., `Bootcamp: YOURNAME`).
     *   Request code review from EFS team leads.
-    *   *Related Files:* [[Code Generation and Coding for the MCU - Bootcamps]]
+    *   *Related Files:* [[6. Code Generation and Coding for the MCU - Bootcamps]]
 
 ## 5. Learning Resources
 
-*   *Related Files:* [[Learning Resources - Bootcamps]]
+*   *Related Files:* [[7. Learning Resources - Bootcamps]]
 *   [ADC Datasheet (MCP3008.pdf)](https://cdn-shop.adafruit.com/datasheets/MCP3008.pdf)
 *   [HAL Function APIs (UM1785)](https://www.st.com/resource/en/user_manual/um1785-description-of-stm32f0-hal-and-lowlayer-drivers-stmicroelectronics.pdf)
 *   [HAL User Manual (RM0090)](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
