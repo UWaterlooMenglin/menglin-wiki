@@ -11,26 +11,6 @@
             "id": "e7d7f2b0b3816e4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/ROS2/First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation"
-            }
-          }
-        ]
-      },
-      {
-        "id": "28bf0ef90a80a44b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c90f99f3c140617f",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -207,14 +187,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "bddf537b8d7e2f50",
+  "active": "e7d7f2b0b3816e4e",
   "lastOpenFiles": [
+    "raw/ROS2/Maintain source checkout — ROS 2 Documentation Kilted  documentation.md",
     "ROS2/ROS2-wiki.md",
+    "raw/ROS2/First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md",
     "ROS2/main.py",
     "raw/ROS2/Tutorials — ROS 2 Documentation Kilted  documentation.md",
-    "raw/ROS2/First steps with ROS - learning path — ROS 2 Documentation Kilted  documentation.md",
     "raw/ROS2/Testing with pre-release binaries — ROS 2 Documentation Kilted  documentation.md",
-    "raw/ROS2/Maintain source checkout — ROS 2 Documentation Kilted  documentation.md",
     "raw/ROS2/Ubuntu (binary) — ROS 2 Documentation Kilted  documentation.md",
     "raw/ROS2/Ubuntu (source) — ROS 2 Documentation Kilted  documentation.md",
     "raw/ROS2/Ubuntu (deb packages) — ROS 2 Documentation Kilted  documentation.md",
