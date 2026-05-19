@@ -2,6 +2,8 @@
 
 This document provides guidelines for working with the ROS2 and other wiki content in this repository. These instructions are automatically loaded when using GitHub Copilot CLI.
 
+**Cursor:** Agent uses `.cursor/rules/menglin-wiki.mdc` (keep in sync when this workflow changes).
+
 ## Project Overview
 
 **Goal:** Build an evolving Obsidian vault that documents learning journey from beginner to experienced developer, showcasing systematic knowledge management for portfolio purposes.
@@ -103,6 +105,32 @@ Preserve: Original file unchanged in @raw\ROS2\
 
 ---
 
+## Progress tracking (instructions only)
+
+**Never** record personal learning progress in repo wiki content (`ROS2/`, `WARG/`, `*-wiki.md`, concepts/tutorials, etc.). Progress lives only in this file and `.cursor/rules/menglin-wiki.mdc`.
+
+**Do not add to wiki files:**
+- Completion checkboxes (`[x]`), status lines, or “Completed” markers
+- Dates tied to what you finished (`Last updated`, session logs, `Status:` footers)
+- `## Learning Progress` or similar personal tracker sections
+
+**OK in wiki content:** `[Beginner]` / `[Intermediate]` / `[Advanced]` maturity tags on *topics* (not “you finished X”).
+
+### Current progress
+
+**Last updated:** 2026-05-18
+
+**Done:**
+- Installation › Ubuntu - Desktop
+- Quick Start › talker/listener demo
+
+**Next:**
+1. Popular Commands (turtlesim, `ros2 topic` / `ros2 node`)
+2. ROS Learning Path › Phase 1 (nodes → actions)
+3. Synthesize from `raw/ROS2/` into Core Concepts or spin-off files
+
+---
+
 ## General Wiki Guidelines
 
 ### Technical Content Standards
@@ -124,7 +152,7 @@ Preserve: Original file unchanged in @raw\ROS2\
 This wiki demonstrates:
 - ✅ Systematic approach to documentation
 - ✅ Ability to synthesize complex information
-- ✅ Learning progression tracking
+- ✅ Learning progression tracked in instructions (not cluttering wiki pages)
 - ✅ Knowledge organization skills
 - ✅ Technical depth and breadth
 
@@ -160,6 +188,7 @@ git commit -m "docs: [section] - Brief description of changes"
 ## Quick Checklist for Wiki Updates
 
 Before committing changes:
+- [ ] No personal progress tracking in wiki files (use **Progress tracking** section here only)
 - [ ] Obsidian links use correct syntax `[[filename#Heading]]`
 - [ ] No modifications to `@raw\` files
 - [ ] Examples and commands are copy-paste ready
@@ -191,4 +220,4 @@ Robotics Wiki (future compound):
 
 **Last Updated:** 2026-05-18  
 **Version:** 1.0  
-**Author Note:** These instructions ensure consistency as the wiki evolves. Update them if workflow changes.
+**Author Note:** These instructions ensure consistency as the wiki evolves. Update progress in **Progress tracking (instructions only)** only — not in wiki files.
