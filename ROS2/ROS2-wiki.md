@@ -36,6 +36,8 @@ sudo apt install ros-kilted-ros-base
 source /opt/ros/kilted/setup.bash
 ```
 
+For every new terminal without re-sourcing manually, see **[[#Permanent environment setup]]**.
+
 ### 3. Verify Installation - Run the demo
 **Terminal 1** - Run the talker (publisher):
 ```bash
@@ -47,12 +49,12 @@ ros2 run demo_nodes_cpp talker
 ros2 run demo_nodes_py listener
 ```
 
-**Expected output:** Talker publishes messages → Listener receives them ✓
+**Expected output:** Talker publishes messages → Listener receives them.
 
 ### Next Steps
-- Explore [[#Installation]] for other platforms
-- Try [[#Popular Commands]] to interact with ROS 2
-- Follow the [[#ROS Learning Path]] for structured learning
+- Try [[#Popular Commands]] (start with [[#Turtlesim (Learning Tool)]])
+- Follow [[#ROS Learning Path]] › Phase 1
+- Set up [[#Permanent environment setup]]
 
 ---
 
@@ -91,10 +93,42 @@ sudo apt upgrade
 sudo apt install ros-kilted-desktop  # Desktop (recommended)
 ```
 
-**Setup environment:**
+**Setup environment (current shell):**
 ```bash
 source /opt/ros/kilted/setup.bash
 ```
+
+### Permanent environment setup
+
+To load ROS 2 in every new terminal, add the setup command to `~/.bashrc` (per-user; loaded automatically on startup).
+
+1. **Open the file:**
+
+```bash
+nano ~/.bashrc
+```
+
+2. **Add at the bottom:**
+
+```bash
+source /opt/ros/kilted/setup.bash
+```
+
+3. **Save and exit** — Nano: `Ctrl+O`, `Enter`, then `Ctrl+X`.
+
+4. **Apply in the current terminal:**
+
+```bash
+source ~/.bashrc
+```
+
+5. **Verify:**
+
+```bash
+printenv | grep -i ROS
+```
+
+Expect `ROS_DISTRO=kilted`. Prefer this over `export PATH="$PATH:…"` alone — the setup script also sets `AMENT_PREFIX_PATH` and other variables `ros2` needs.
 
 ---
 
@@ -153,7 +187,8 @@ Quick reference guide organized by task. All commands assume you've sourced the 
 
 | Command | Purpose | Example |
 |---------|---------|---------|
-| `source /opt/ros/kilted/setup.bash` | Activate ROS 2 environment | `source /opt/ros/kilted/setup.bash` |
+| `source /opt/ros/kilted/setup.bash` | Activate ROS 2 in **this** shell | `source /opt/ros/kilted/setup.bash` |
+| `nano ~/.bashrc` + `source …` | **Permanent** setup every new terminal | See [[#Permanent environment setup]] |
 | `printenv \| grep -i ROS` | Verify ROS 2 is sourced | `printenv \| grep -i ROS` |
 | `sudo apt install ros-dev-tools` | Install development tools | `sudo apt install ros-dev-tools` |
 | `rosdep init` | Initialize rosdep package manager | One-time setup: `sudo rosdep init && rosdep update` |
@@ -358,11 +393,10 @@ A reference for fundamental ROS 2 concepts. This section expands as you learn de
 
 ### ROS 2 not found after installation
 ```bash
-# Make sure to source setup file in EVERY new terminal
+# Current shell only:
 source /opt/ros/kilted/setup.bash
 
-# To make permanent, add to ~/.bashrc:
-echo "source /opt/ros/kilted/setup.bash" >> ~/.bashrc
+# Every new terminal — see Permanent environment setup (nano ~/.bashrc + source line)
 ```
 
 ### "Unsupported OS" error on non-standard Ubuntu
@@ -398,7 +432,7 @@ sudo chown $USER:$USER ros2.bag
 This section documents how to maintain and evolve this wiki.
 
 ### Intake Process
-- New raw documentation comes from `@raw\ROS2\` folder
+- New raw documentation comes from `raw/ROS2/` (read-only; never edit)
 - Extract key information without modifying original files
 - Synthesize content into appropriate wiki sections
 
@@ -431,6 +465,4 @@ This section documents how to maintain and evolve this wiki.
 
 ---
 
-**Last updated:** 2026-05-18  
-**ROS Distribution:** Kilted Kaiju (2025)  
-**Status:** Beginner-focused, will evolve as learning progresses
+**ROS Distribution:** Kilted Kaiju
