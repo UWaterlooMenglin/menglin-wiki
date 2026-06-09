@@ -61,6 +61,3 @@ Practical application of core concepts.
 - [[ROS 2 Documentation — ROS 2 Documentation Jazzy  documentation|ROS 2 Documentation Home]]
 - [[Jazzy Jalisco (jazzy) — ROS 2 Documentation Jazzy  documentation|Jazzy Jalisco Overview]]
 - [[Distributions — ROS 2 Documentation Jazzy  documentation|ROS 2 Distributions]]
-
----
-*Note: This wiki links directly to files in `/raw/ROS2`.*
