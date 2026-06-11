@@ -377,3 +377,7 @@ Enter `Ctrl+C` in each terminal to stop the nodes from spinning.
 ## Summary
 
 You created two nodes to publish and subscribe to data over a topic. Before running them, you added their dependencies and entry points to the package configuration files.
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Launching nodes — ROS2-Jazzy.md|Launching nodes]], [[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding actions — ROS2-Jazzy.md|Understanding actions]], [[Understanding services — ROS2-Jazzy.md|Understanding services]], [[Understanding topics — ROS2-Jazzy.md|Understanding topics]], [[Writing a simple service and client (Python) — ROS2-Jazzy.md|Writing a simple service and client (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]

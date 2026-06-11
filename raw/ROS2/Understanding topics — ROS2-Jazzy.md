@@ -1,4 +1,4 @@
-**Implementation:** [[Writing a simple publisher and subscriber (Python) — ROS 2 Documentation Jazzy  documentation|Pub/Sub Demo]]
+**Implementation:** [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy|Pub/Sub Demo]]
 
 ---
 ---
@@ -503,3 +503,7 @@ At this point you’ll have a lot of nodes running. Don’t forget to stop them 
 ## Summary
 
 Nodes publish information over topics, which allows any number of other nodes to subscribe to and access that information. In this tutorial you examined the connections between several nodes over topics using rqt\_graph and command line tools. You should now have a good idea of how data moves around a ROS 2 system.
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Launching nodes — ROS2-Jazzy.md|Launching nodes]], [[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding actions — ROS2-Jazzy.md|Understanding actions]], [[Understanding services — ROS2-Jazzy.md|Understanding services]], [[Writing a simple service and client (Python) — ROS2-Jazzy.md|Writing a simple service and client (Python)]], [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy.md|Writing a simple publisher and subscriber (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]

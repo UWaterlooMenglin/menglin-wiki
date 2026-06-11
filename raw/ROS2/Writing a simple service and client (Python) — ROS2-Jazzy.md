@@ -312,3 +312,7 @@ Enter `Ctrl+C` in the server terminal to stop the node from spinning.
 ## Summary
 
 You created two nodes to request and respond to data over a service. You added their dependencies and executables to the package configuration files so that you could build and run them, allowing you to see a service/client system at work.
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Launching nodes — ROS2-Jazzy.md|Launching nodes]], [[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding actions — ROS2-Jazzy.md|Understanding actions]], [[Understanding services — ROS2-Jazzy.md|Understanding services]], [[Understanding topics — ROS2-Jazzy.md|Understanding topics]], [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy.md|Writing a simple publisher and subscriber (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]

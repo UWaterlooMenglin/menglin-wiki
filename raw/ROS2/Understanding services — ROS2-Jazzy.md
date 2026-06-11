@@ -1,4 +1,4 @@
-**Implementation:** [[Writing a simple service and client (Python) — ROS 2 Documentation Jazzy  documentation|Service/Client Demo]]
+**Implementation:** [[Writing a simple service and client (Python) — ROS2-Jazzy|Service/Client Demo]]
 
 ---
 ---
@@ -302,3 +302,7 @@ Nodes can communicate using services in ROS 2. Unlike a topic - a one way commun
 You generally don’t want to use a service for continuous calls; topics or even actions would be better suited.
 
 In this tutorial you used command line tools to identify, introspect, and call services.
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Launching nodes — ROS2-Jazzy.md|Launching nodes]], [[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding actions — ROS2-Jazzy.md|Understanding actions]], [[Understanding topics — ROS2-Jazzy.md|Understanding topics]], [[Writing a simple service and client (Python) — ROS2-Jazzy.md|Writing a simple service and client (Python)]], [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy.md|Writing a simple publisher and subscriber (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]

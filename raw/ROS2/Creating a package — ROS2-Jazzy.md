@@ -285,3 +285,7 @@ Don’t forget to save the file.
 You’ve created a package to organize your code and make it easy to use for others.
 
 Your package was automatically populated with the necessary files, and then you used colcon to build it so you can use its executables in your local environment.
+
+---
+### 🔗 Development Workflow & Tooling
+[[Using colcon to build packages — ROS2-Jazzy.md|Using colcon to build packages]], [[Creating a workspace — ROS2-Jazzy.md|Creating a workspace]], [[Creating a launch file — ROS2-Jazzy.md|Creating a launch file]], [[Managing Dependencies with rosdep — ROS2-Jazzy.md|Managing Dependencies with rosdep]], [[Integrating launch files into ROS 2 packages — ROS2-Jazzy.md|Integrating launch files into ROS 2 packages]], [[Configuring environment — ROS2-Jazzy.md|Configuring environment]]

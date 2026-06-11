@@ -97,3 +97,7 @@ After running these commands, you should see something like the following:
 The significance of what you’ve done so far is that you’ve run two turtlesim nodes with one command. Once you learn to write your own launch files, you’ll be able to run multiple nodes - and set up their configuration - in a similar way, with the `ros2 launch` command.
 
 For more tutorials on ROS 2 launch files, see the [main launch file tutorial page](https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Launch/Launch-Main.html).
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding actions — ROS2-Jazzy.md|Understanding actions]], [[Understanding services — ROS2-Jazzy.md|Understanding services]], [[Understanding topics — ROS2-Jazzy.md|Understanding topics]], [[Writing a simple service and client (Python) — ROS2-Jazzy.md|Writing a simple service and client (Python)]], [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy.md|Writing a simple publisher and subscriber (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]

@@ -3,5 +3,10 @@
   "attachmentFolderPath": "./attachments",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
-  "userIgnoreFilters": null
+  "userIgnoreFilters": [
+    "raw/WARG/",
+    "WARG/",
+    "AGENTS",
+    "README"
+  ]
 }

@@ -206,3 +206,7 @@ You can see that modifications in the overlay did not actually affect anything i
 In this tutorial, you sourced your main ROS 2 distro install as your underlay, and created an overlay by cloning and building packages in a new workspace. The overlay gets prepended to the path, and takes precedence over the underlay, as you saw with your modified turtlesim.
 
 Using overlays is recommended for working on a small number of packages, so you don’t have to put everything in the same workspace and rebuild a huge workspace on every iteration.
+
+---
+### 🔗 Development Workflow & Tooling
+[[Using colcon to build packages — ROS2-Jazzy.md|Using colcon to build packages]], [[Creating a package — ROS2-Jazzy.md|Creating a package]], [[Creating a launch file — ROS2-Jazzy.md|Creating a launch file]], [[Managing Dependencies with rosdep — ROS2-Jazzy.md|Managing Dependencies with rosdep]], [[Integrating launch files into ROS 2 packages — ROS2-Jazzy.md|Integrating launch files into ROS 2 packages]], [[Configuring environment — ROS2-Jazzy.md|Configuring environment]]

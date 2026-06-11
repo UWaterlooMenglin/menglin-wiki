@@ -290,3 +290,7 @@ Actions are like services that allow you to execute long running tasks, provide 
 A robot system would likely use actions for navigation. An action goal could tell a robot to travel to a position. While the robot navigates to the position, it can send updates along the way (i.e. feedback), and then a final result message once it’s reached its destination.
 
 Turtlesim has an action server that action clients can send goals to for rotating turtles. In this tutorial, you introspected that action, `/turtle1/rotate_absolute`, to get a better idea of what actions are and how they work.
+
+---
+### 🔗 Related ROS 2 Communication concepts
+[[Launching nodes — ROS2-Jazzy.md|Launching nodes]], [[Understanding nodes — ROS2-Jazzy.md|Understanding nodes]], [[Understanding services — ROS2-Jazzy.md|Understanding services]], [[Understanding topics — ROS2-Jazzy.md|Understanding topics]], [[Writing a simple service and client (Python) — ROS2-Jazzy.md|Writing a simple service and client (Python)]], [[Writing a simple publisher and subscriber (Python) — ROS2-Jazzy.md|Writing a simple publisher and subscriber (Python)]], [[Writing an action server and client (Python) — ROS2-Jazzy.md|Writing an action server and client (Python)]], [[Understanding parameters — ROS2-Jazzy.md|Understanding parameters]], [[Using parameters in a class (Python) — ROS2-Jazzy.md|Using parameters in a class (Python)]]
